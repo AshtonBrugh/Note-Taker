@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const notes = require('../db/db.json');
 const path = require('path');
 const fs =  require('fs');
 
@@ -21,13 +20,19 @@ router.get('/notes', (req, res) => {
 
 //create a new note
 router.post('/notes', (req, res) => {
-    const newNote = req.body;
-    notes.push(newNote);
-    fs.writeFileSync(
-        path.join(__dirname, '../db/db.json'),
-        JSON.stringify(notes, null, 2)
-    );
-    res.json(notes);
+    const newNotes = req.body;
+    fs.readFile('./db/db.json', (err, data) => {
+        if (err) throw err;
+        const pushedNotes = JSON.parse(data);
+        notes.push(newNotes);  
+
+    fs.writeFile('./db/db.json', JSON.stringify(pushedNotes), function(err) {
+            if (err) throw (err)
+    
+        })
+    })
+
+        res.json(newNotes);
 })
 
 module.exports = router;

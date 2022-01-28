@@ -1,10 +1,8 @@
 [
-  {
-    "title": "Test Title",
-    "text": "Test text"
-  },
-  {
-    "title": "Push to the array!",
-    "text": "Do it!"
-  }
+  {"title":"Test Title","text":"Test text"},
+  {"title":"Push to the array!","text":"Do it!"},
+  {"title":"is this working?","text":"notes!"},
+  {"title":"note taker!","text":"display the notes"},
+  {"title":"note taker!","text":"display the notes"},
+  {"title":"new note","text":"this is a new note!"}
 ]
