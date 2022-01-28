@@ -1,6 +1,10 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "title": "Push to the array!",
+    "text": "Do it!"
+  }
 ]
