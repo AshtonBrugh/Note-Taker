@@ -1,38 +1,17 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text"
+    "title": "This is my new note!",
+    "text": "Do i have an id?",
+    "id": "9b5a6544-4537-43e8-8867-05821600d4df"
   },
   {
-    "title": "Push to the array!",
-    "text": "Do it!"
+    "title": "Give the note a unique id ",
+    "text": "Give the note a unique id so I can go back and view the note.",
+    "id": "ad8810b5-a7ce-49ea-b6cb-a2e3b5bd73df"
   },
   {
-    "title": "is this working?",
-    "text": "notes!"
-  },
-  {
-    "title": "note taker!",
-    "text": "display the notes"
-  },
-  {
-    "title": "note taker!",
-    "text": "display the notes"
-  },
-  {
-    "title": "new note",
-    "text": "this is a new note!"
-  },
-  {
-    "title": "Is this working?",
-    "text": "ok!"
-  },
-  {
-    "title": "What is happening",
-    "text": "ugh"
-  },
-  {
-    "title": "It worked!",
-    "text": "This is working!"
+    "title": "Get an A on this assignment.",
+    "text": "It's going to happen!",
+    "id": "73e42d4f-b49d-4f6b-95e6-45ddd8282693"
   }
 ]

@@ -2,6 +2,7 @@ const router = require('express').Router();
 const fs =  require('fs');
 const path = require('path');
 const notes = require('../db/db.json');
+const { v4: uuidv4 } = require('uuid');
 
 //get input from notes
 router.get('/notes', (req, res) => {
@@ -12,6 +13,7 @@ router.get('/notes', (req, res) => {
 //create a new note
 router.post('/notes', (req, res) => {
     const newNote = req.body;
+    newNote.id = uuidv4();
     // write data to notes array
     notes.push(newNote);
     fs.writeFileSync(
