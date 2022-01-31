@@ -9,7 +9,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete.
 An application that writes and saves notes powered by Express.js. Users can also view and edit previous notes.
 
 ## Technologies
-• Express.js
+• Express.js <br>
 • UUID
 
 ## Deployed Application
